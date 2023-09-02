@@ -1,0 +1,65 @@
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1280px) {
+  html {
+    font-size: 55%;
+  }
+  .searchInput {
+    display: none;
+  }
+  .fa-search {
+    padding: 0;
+  }
+  .searchPart {
+    padding: 0;
+    width: 6rem;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .rightNav {
+    display: none;
+  }
+  .midLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .searchPart {
+    display: none;
+  }
+  .mobileMenuBtn {
+    display: flex;
+  }
+  .darkBtn {
+    display: none;
+  }
+}
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 768px) {
+  .signInPart {
+    display: none;
+  }
+  .leftNav {
+    display: none;
+  }
+  .userIconWrapper {
+    display: flex;
+  }
+}
+@media screen and (max-width: 576px) {
+}
+@media screen and (min-width: 1024px) {
+  .mobileNav {
+    display: none;
+  }
+
+  .mobileMenuBtn {
+    display: none;
+  }
+}
