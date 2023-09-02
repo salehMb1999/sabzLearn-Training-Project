@@ -20,14 +20,8 @@ body {
   line-height: 1.6;
   font-family: "Regular";
   background-color: var(--background-color);
-  color:var(--text-color);
+  color: var(--text-color);
 }
-
-/* ================== */
-
-/* Dark Mode */
-
-/* ================== */
 
 /* ================== */
 
@@ -225,7 +219,6 @@ body {
   display: flex;
   flex-direction: column;
   border-bottom: 1px solid rgba(63, 63, 70, 0.1);
-
 }
 .mobileMenuBtn {
   width: 6rem;
@@ -373,11 +366,12 @@ body {
   border-radius: 50%;
   margin-right: 2.5rem;
 }
-#moon, #moonMobile {
+#moon,
+#moonMobile {
   font-size: 2.5rem;
-  
 }
-#sun, #sunMobile {
+#sun,
+#sunMobile {
   font-size: 2rem;
   display: none;
 }
@@ -391,9 +385,103 @@ body {
   border-radius: 50%;
   margin-right: 3rem;
   margin-top: 2rem;
-
 }
 .activeArrow {
   transform: rotate(180deg);
   transition: all 0.2s ease-in-out;
+}
+
+/* ================== */
+
+/* Header */
+
+/* ================== */
+
+.headerWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90vh;
+}
+
+.rightHeader {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  flex-basis: 1;
+}
+.rightHeaderTop {
+  background-color: var(--background-color);
+  box-shadow: 0px 0px 20px 0px rgba(66, 68, 90, 1);
+
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  width: 45rem;
+  font-size: 2rem;
+}
+.greenPartTop {
+  color: #2ed573;
+}
+.noticePartTop {
+  color: var(--text-color);
+}
+.headerTitle {
+  font-family: "MBold";
+  font-size: 8rem;
+  width: 90rem;
+}
+.headerCaption {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  font-size: 2.5rem;
+  font-family: "Light";
+}
+.headerBtns {
+  display: flex;
+  align-items: center;
+}
+.startHere {
+  width: 18rem;
+  background-color: rgba(14, 165, 233, 0.75);
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4rem;
+  padding: 1.5rem 2rem;
+  margin-left: 5rem;
+  font-size: 2rem;
+}
+.whoRWe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.whoBtn {
+  width: 5rem;
+  height: 5rem;
+  background-color: #2ed573;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 2.5rem;
+  border-radius: 50%;
+  margin-left: 1.5rem;
+}
+.whoText {
+  font-family: "Light";
+  font-size: 2rem;
+}
+.leftHeader {
+  width: 45%;
+}
+.lightHeaderImg {
+  width: 100%;
+}
+.darkHeaderImg {
+  display: none;
+  width: 100%;
 }

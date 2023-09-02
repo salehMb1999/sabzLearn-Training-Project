@@ -3,6 +3,10 @@
     src: url(./../public/fonts/dana-bold.ttf) format("truetype");
 }
 @font-face {
+    font-family: "MBold";
+    src: url(./../public/fonts/Morabba-SemiBold.ttf) format("truetype");
+}
+@font-face {
     font-family: "Light";
     src: url(./../public/fonts/dana-light.ttf) format("truetype");
 }
