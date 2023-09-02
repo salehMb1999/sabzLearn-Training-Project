@@ -13,8 +13,6 @@ const moonIconMobile = document.getElementById("moonMobile");
 const sunIcon = document.getElementById("sun");
 const sunIconMobile = document.getElementById("sunMobile");
 const arrow = document.querySelectorAll(".fa-chevron-down");
-const lightBoy = document.querySelector(".lightHeaderImg")
-const darkBoy = document.querySelector(".darkHeaderImg")
 let isOpen = false;
 let isDark = false;
 menuButton.addEventListener("click", () => {
@@ -39,16 +37,12 @@ darkBtn.addEventListener("click", () => {
   if (!isDark) {
     root.style.setProperty("--background-color", "rgb(28, 28, 40)");
     root.style.setProperty("--text-color", "#fff");
-    lightBoy.style.display = "none"
-    darkBoy.style.display = "block"
     moonIcon.style.display = "none";
     sunIcon.style.display = "block";
     isDark = true;
   } else {
     root.style.setProperty("--background-color", "rgba(243, 244, 246, 1)");
     root.style.setProperty("--text-color", "rgb(63, 63, 70)");
-    lightBoy.style.display = "block"
-    darkBoy.style.display = "none"
     moonIcon.style.display = "block";
     sunIcon.style.display = "none";
     isDark = false;
@@ -58,16 +52,12 @@ darkBtnMobile.addEventListener("click", () => {
   if (!isDark) {
     root.style.setProperty("--background-color", "rgb(28, 28, 40)");
     root.style.setProperty("--text-color", "#fff");
-    lightBoy.style.display = "none"
-    darkBoy.style.display = "block"
     moonIconMobile.style.display = "none";
     sunIconMobile.style.display = "block";
     isDark = true;
   } else {
     root.style.setProperty("--background-color", "rgba(243, 244, 246, 1)");
     root.style.setProperty("--text-color", "rgb(63, 63, 70)");
-    lightBoy.style.display = "block"
-    darkBoy.style.display = "none"
     moonIconMobile.style.display = "block";
     sunIconMobile.style.display = "none";
     isDark = false;

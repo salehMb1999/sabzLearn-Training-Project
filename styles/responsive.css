@@ -1,4 +1,19 @@
+@media screen and (min-width: 1024px) {
+  .mobileNav {
+    display: none;
+  }
+
+  .mobileMenuBtn {
+    display: none;
+  }
+}
 @media screen and (max-width: 1400px) {
+  .headerTitle {
+    font-size: 6rem;
+  }
+  .leftHeader, .rightHeader {
+    width: 45%;
+  }
 }
 
 @media screen and (max-width: 1280px) {
@@ -19,6 +34,7 @@
     justify-content: center;
     align-items: center;
   }
+  
 }
 @media screen and (max-width: 1024px) {
   .rightNav {
@@ -38,8 +54,42 @@
   .darkBtn {
     display: none;
   }
+  .headerWrapper {
+    padding-top: 15rem;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  height: 100rem;
+
+  }
+  .headerTitle {
+    font-size: 5rem;
+    width: 50rem;
+  }
+  .rightHeader {
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    max-width: 50rem;
+  }
+  .rightHeaderTop {
+    max-width: 32rem;
+  font-size: 1.7rem;
+  }
+  .startHere {
+    padding: 1rem;
+    margin-left: 2rem;
+  }
 }
 @media screen and (max-width: 992px) {
+  .whoBtn {
+    margin-left: 0.5rem;
+  }
+  .whoText {
+    font-size: 1.8rem;
+    width: 12rem;
+  }
 }
 @media screen and (max-width: 768px) {
   .signInPart {
@@ -54,12 +104,17 @@
 }
 @media screen and (max-width: 576px) {
 }
-@media screen and (min-width: 1024px) {
-  .mobileNav {
-    display: none;
+@media screen and (max-width: 402px) {
+  .headerBtns {
+    flex-direction: column;
   }
-
-  .mobileMenuBtn {
-    display: none;
+  .headerTitle {
+    font-size: 4rem;
+    max-width: 50rem;
+  }
+  .rightHeaderTop {
+    max-width: 29rem;
+  font-size: 1.5rem;
   }
 }
+
