@@ -483,3 +483,71 @@ body {
   width: 50%;
   margin-right: 3rem;
 }
+
+
+
+
+
+/* ================== */
+
+/* Main  */
+/* Last Courses */
+
+/* ================== */
+
+
+.mainSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 6rem;
+}
+.mainTop {
+  display: flex;
+  flex-direction: column;
+}
+.maintopTitle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1rem;
+
+}
+.mainTitleSquare {
+  width: 1rem;
+  height: 1rem;
+  background-color: #fbbf24;
+  margin-left: 1rem;
+}
+.mainTitle {
+  font-size: 3rem;
+  font-family: "Bold";
+  color: var(--text-color);
+}
+.mainBot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.mainBot {
+  font-size: 1.8rem;
+}
+.mainBotRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainBotRightText {
+  color: #64748b;
+}
+.mainBotLeftText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0ea5e9;
+}
+.mainBotLeftText> i {
+  margin-right: .6rem;
+}

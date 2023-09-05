@@ -83,6 +83,9 @@
   .leftHeader {
     margin: 0 auto;
   }
+  .mainSection {
+    margin-top: 20rem;
+  }
 }
 @media screen and (max-width: 992px) {
   .whoBtn {
@@ -105,6 +108,19 @@
   }
 }
 @media screen and (max-width: 576px) {
+  .mainSection{
+    flex-direction: column;
+    justify-content: space-between;
+    height: 15rem;
+  }
+  .mainTop {
+    align-self: start;
+  }
+  .mainBot {
+    justify-self: end;
+    align-self: self-end;
+  }
+  
 }
 @media screen and (max-width: 402px) {
   .headerBtns {
