@@ -304,7 +304,7 @@ body {
 }
 
 .searchInputMobile:focus {
-  margin-left: 8rem;
+  margin-left: 2rem;
 }
 
 .fa-search {
@@ -416,11 +416,11 @@ body {
 .rightHeaderTop {
   background-color: var(--background-color);
   box-shadow: 0px 0px 20px 0px rgba(66, 68, 90, 1);
-
   padding: 1rem 2rem;
   border-radius: 2rem;
-  width: 45rem;
+  max-width: 38rem;
   font-size: 2rem;
+  margin-bottom: 2rem;
 }
 .greenPartTop {
   color: #2ed573;
@@ -457,20 +457,21 @@ body {
   font-size: 2rem;
 }
 .whoRWe {
+  width: 18rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .whoBtn {
-  width: 5rem;
-  height: 5rem;
+  width: 4rem;
+  height: 4rem;
   background-color: #2ed573;
   display: flex;
   justify-content: center;
   align-items: center;
   text-decoration: none;
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 2rem;
   border-radius: 50%;
   margin-left: 1.5rem;
 }
@@ -482,5 +483,3 @@ body {
   width: 50%;
   margin-right: 3rem;
 }
-
-

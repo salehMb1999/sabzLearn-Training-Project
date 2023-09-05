@@ -11,7 +11,8 @@
   .headerTitle {
     font-size: 6rem;
   }
-  .leftHeader, .rightHeader {
+  .leftHeader,
+  .rightHeader {
     width: 45%;
   }
 }
@@ -34,7 +35,6 @@
     justify-content: center;
     align-items: center;
   }
-  
 }
 @media screen and (max-width: 1024px) {
   .rightNav {
@@ -60,8 +60,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-  height: 100rem;
-
+    height: 100rem;
   }
   .headerTitle {
     font-size: 5rem;
@@ -75,11 +74,14 @@
   }
   .rightHeaderTop {
     max-width: 32rem;
-  font-size: 1.7rem;
+    font-size: 1.7rem;
   }
   .startHere {
     padding: 1rem;
     margin-left: 2rem;
+  }
+  .leftHeader {
+    margin: 0 auto;
   }
 }
 @media screen and (max-width: 992px) {
@@ -109,12 +111,26 @@
     flex-direction: column;
   }
   .headerTitle {
-    font-size: 4rem;
-    max-width: 50rem;
+    font-size: 2.2rem;
+    max-width: 30rem;
   }
   .rightHeaderTop {
-    max-width: 29rem;
-  font-size: 1.5rem;
+    max-width: 18rem;
+    font-size: 1.3rem;
+  }
+  .headerWrapper {
+    overflow-x: hidden;
+  }
+  .headerBtns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .startHere {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-right: 1.5rem;
   }
 }
-
