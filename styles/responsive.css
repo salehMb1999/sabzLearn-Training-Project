@@ -44,6 +44,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 10rem;
   }
   .searchPart {
     display: none;
@@ -120,7 +121,9 @@
     justify-self: end;
     align-self: self-end;
   }
-  
+  .midLogo > img {
+    max-width: 6rem;
+  }
 }
 @media screen and (max-width: 402px) {
   .headerBtns {
