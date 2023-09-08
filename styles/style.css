@@ -519,6 +519,10 @@ body {
   font-family: "Bold";
   color: var(--text-color);
 }
+.mainTopText {
+  font-size: 2rem;
+  color: #64748b;
+}
 .mainBot {
   display: flex;
   justify-content: space-between;
@@ -554,7 +558,7 @@ body {
 .lastCourses {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 5rem;
+  align-items: center;
 }
 .course {
   flex-grow: 1;
@@ -681,12 +685,12 @@ body {
   border-bottom: 1px solid rgba(63, 63, 70, 0.1);
   margin-bottom: 1rem;
 }
-.courseAuthor > i , .courseDuration > i {
+.courseAuthor > i,
+.courseDuration > i {
   margin-left: 0.5rem;
 }
 .courseStars > i {
   margin-right: 0.5rem;
-
 }
 .courseStars {
   color: #fbbf24;
@@ -719,10 +723,115 @@ body {
 }
 .gitContent {
   display: flex;
-
 }
 .gitContent .courseCategory {
-  margin: 0 .5rem;
+  margin: 0 0.5rem;
   margin-bottom: 1.5rem;
+}
 
+/* RoadMap Section */
+.roadMap {
+  margin-top: 10rem;
+}
+.roadMapHeaderTop {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.roadMapHeaderSquare {
+  width: 1.2rem;
+  height: 1.2rem;
+  background-color: #d946ef;
+  margin-left: 1rem;
+}
+.roadMapHeaderTitle {
+  color: var(--text-color);
+  font-size: 3rem;
+  font-family: "Bold";
+}
+.roadMapHeaderBotText {
+  color: #64748b;
+  font-size: 2rem;
+}
+.roadMapMain {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.roadMapColumn {
+  flex-grow: 1;
+  width: 30rem;
+  height: 16rem;
+  margin-top: 2rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 5px 0.5px rgba(66, 68, 90, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.frontBg {
+  background: rgb(255, 181, 53);
+  background: linear-gradient(
+    70deg,
+    rgba(255, 181, 53, 1) 19%,
+    rgba(242, 41, 91, 1) 81%
+  );
+}
+.secureBg {
+  background: rgb(48, 196, 229);
+  background: linear-gradient(
+    70deg,
+    rgba(48, 196, 229, 1) 19%,
+    rgba(39, 229, 92, 1) 81%
+  );
+}
+.pythonBg {
+  background: rgb(156, 51, 247);
+  background: linear-gradient(
+    70deg,
+    rgba(156, 51, 247, 1) 19%,
+    rgba(43, 159, 255, 1) 81%
+  );
+}
+.softBg {
+  background: rgb(255, 53, 113);
+  background: linear-gradient(
+    70deg,
+    rgba(255, 53, 113, 1) 19%,
+    rgba(135, 0, 117, 1) 81%
+  );
+}
+.columnTop {
+  background-color: #fff;
+  position: absolute;
+  left: 1.5rem;
+  top: 1rem;
+  width: 4rem;
+  line-height: 4rem;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+}
+.columnTopNumber {
+  align-self: center;
+  justify-self: center;
+}
+.columnBot {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 60%;
+  font-size: 2.4rem;
 }
