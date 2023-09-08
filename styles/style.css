@@ -561,38 +561,41 @@ body {
   margin-top: 2rem;
   margin-right: 1rem;
   margin-bottom: 1rem;
-  padding: 1rem;
   overflow: hidden;
   border-radius: 2rem;
+  box-shadow: 0px 0px 5px .5px rgba(66, 68, 90, .5);
+
 }
 .courseBanner {
-  position: relative;
-  border-radius: 2rem;
-  overflow: hidden;
+  border-radius: 1.5rem;
   height: 18rem;
   margin-bottom: 2rem;
+  background: url("./../public/images/courses/chatgpt-852x479-1-768x432.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
-.courseBannerImg {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
+
 .courseOff {
-  position: absolute;
+  background-color: #2ed573;
+  color: #fff;
+  border-radius: 1rem;
+  padding: 0 0.5rem;
+  font-size: 1.5rem;
+  height: 3rem;
+  width: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #2ed573;
-  color: #fff;
+  position: absolute;
   top: 1rem;
   right: 1rem;
-  border-radius: 2rem;
-  padding: 0 0.5rem;
-  font-size: 1.5rem;
 }
 .courseContent {
   display: flex;
   flex-direction: column;
+  padding: 1rem;
 }
 .courseCategory {
   color: rgb(14, 165, 233);
