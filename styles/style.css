@@ -233,7 +233,7 @@ body {
   display: block;
   width: 4rem;
   height: 0.5rem;
-  background-color: rgb(63, 63, 70);
+  background-color: var(--text-color);
   border-radius: 8rem;
   position: relative;
 }
@@ -242,7 +242,7 @@ body {
   position: absolute;
   width: 4rem;
   height: 0.5rem;
-  background-color: rgb(63, 63, 70);
+  background-color: var(--text-color);
   border-radius: 8rem;
   top: -1rem;
 }
@@ -251,7 +251,7 @@ body {
   position: absolute;
   width: 4rem;
   height: 0.5rem;
-  background-color: rgb(63, 63, 70);
+  background-color: var(--text-color);
   border-radius: 8rem;
   top: 1rem;
 }
@@ -554,29 +554,73 @@ body {
 .lastCourses {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 5rem;
 }
 .course {
   flex-grow: 1;
   width: 30rem;
+  height: 43rem;
   margin-top: 2rem;
-  margin-right: 1rem;
+  margin-right: 1.2rem;
   margin-bottom: 1rem;
   overflow: hidden;
   border-radius: 2rem;
-  box-shadow: 0px 0px 5px .5px rgba(66, 68, 90, .5);
-
+  box-shadow: 0px 0px 5px 0.5px rgba(66, 68, 90, 0.5);
 }
 .courseBanner {
   border-radius: 1.5rem;
   height: 18rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+.chatGPT {
   background: url("./../public/images/courses/chatgpt-852x479-1-768x432.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  position: relative;
 }
-
+.tailwind {
+  background: url("./../public/images/courses/tailwind.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.reactLibrary {
+  background: url("./../public/images/courses/sabz-react2library-2-768x432.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.redux {
+  background: url("./../public/images/courses/sabz-redux-768x432.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.nextjs {
+  background: url("./../public/images/courses/sabz-next-768x432.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.pwa {
+  background: url("./../public/images/courses/PWA-min-1-768x432.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.github {
+  background: url("./../public/images/courses/گیت-و-گیتهاب-2-min-1-768x432.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.mern {
+  background: url("./../public/images/courses/MernStack2-min-768x432.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .courseOff {
   background-color: #2ed573;
   color: #fff;
@@ -614,6 +658,9 @@ body {
   font-size: 1.6rem;
   margin-bottom: 1rem;
   color: var(--text-color);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 .courseCaption {
   text-overflow: ellipsis;
@@ -623,4 +670,59 @@ body {
   font-size: 1.4rem;
   color: #64748b;
   font-family: "Light";
+}
+.courseDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #64748b;
+  font-size: 1.3rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(63, 63, 70, 0.1);
+  margin-bottom: 1rem;
+}
+.courseAuthor > i , .courseDuration > i {
+  margin-left: 0.5rem;
+}
+.courseStars > i {
+  margin-right: 0.5rem;
+
+}
+.courseStars {
+  color: #fbbf24;
+}
+.courseUsersPrice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.8rem;
+}
+.coursePricePart {
+  display: flex;
+  flex-direction: column;
+  width: 8rem;
+  align-self: flex-end;
+}
+.usersCountPart {
+  align-self: flex-end;
+  color: var(--text-color);
+}
+.mainPrice {
+  align-self: flex-start;
+  font-size: 1.6rem;
+  text-decoration: line-through;
+  font-family: "Light";
+}
+.free {
+  align-self: flex-end;
+  color: #2ed573;
+}
+.gitContent {
+  display: flex;
+
+}
+.gitContent .courseCategory {
+  margin: 0 .5rem;
+  margin-bottom: 1.5rem;
+
 }
