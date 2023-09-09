@@ -1,0 +1,120 @@
+:root {
+  --background-color: rgba(243, 244, 246, 1);
+
+  --text-color: rgb(63, 63, 70);
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  direction: rtl;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  font-family: "Regular";
+  background-color: #fff;
+  color: var(--text-color);
+}
+
+/* Main Styles */
+
+.signin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40rem;
+  margin: 10rem auto;
+  height: 43rem;
+}
+.signinHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40rem;
+  margin-bottom: 2rem;
+}
+.sabzlearn-logo {
+  width: 10rem;
+}
+.formPart {
+  box-shadow: 0px 0px 5px 0.1px rgba(66, 68, 90, 0.3);
+  width: 45rem;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 2rem;
+}
+.formTitle {
+  font-family: "MBold";
+  font-size: 3rem;
+}
+.caption {
+  color: #64748b;
+  font-family: "Light";
+  font-size: 1.8rem;
+}
+.specText {
+  color: #2ed573;
+}
+.form {
+  margin-top: 3rem;
+}
+.userNamePart,
+.mobilePart,
+.emailPart,
+.passwordPart {
+  background-color: rgba(183, 185, 190, 0.2);
+  border-radius: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 2rem 2rem 3.6rem;
+  width: 38rem;
+  height: 6rem;
+  margin-bottom: 2rem;
+}
+.userName,
+.mobile,
+.email,
+.password {
+  border: none;
+  outline: none;
+  width: 15rem;
+  padding: 1.5rem 0rem;
+  background-color: transparent;
+  font-family: "Light";
+  font-size: 1.8rem;
+  color: #64748b;
+  padding-right: 2rem;
+  transition: all 0.2s ease-in-out;
+}
+form i {
+  font-size: 1.8rem;
+  color: #64748b;
+}
+.continue {
+  background-color: #2ed573;
+  text-decoration: none;
+  max-width: 40rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6rem;
+  border-radius: 1.5rem;
+  color: #fff;
+  font-size: 1.8rem;
+}
+.copyRightPart {
+  margin-top: 2rem;
+  color: #64748b;
+  font-family: "Light";
+  font-size: 2rem;
+}

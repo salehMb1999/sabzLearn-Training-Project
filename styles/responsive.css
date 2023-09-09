@@ -161,5 +161,24 @@
     margin-bottom: 1rem;
     margin-right: 1.5rem;
   }
-  
+  html {
+    font-size: 45%;
+  }
+  .formPart {
+    width: 35rem;
+  }
+  .userNamePart,
+.mobilePart, 
+.emailPart, 
+.passwordPart {
+  width: 30rem;
+}
+.copyRightPart {
+  width: 30rem;
+}
+}
+@media (max-width: 270px) {
+  html {
+    font-size: 35%;
+  }
 }
