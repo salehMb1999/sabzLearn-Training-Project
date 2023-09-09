@@ -908,3 +908,68 @@ body {
 .helpLeftCaption {
   color: #64748b;
 }
+
+/* Footer */
+
+.footer {
+  box-shadow: 0px -16px 17px -18px rgba(66, 68, 90, 1);
+  padding: 10rem 2rem;
+}
+.footerWrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap:10rem;
+  border-bottom: 1px solid rgba(63, 63, 70, 0.1);
+
+}
+.footerAbout {
+  width: 30rem;
+}
+.footerAbout,
+.footerFast,
+.footerGood,
+.footerSocial {
+  flex-grow: 1;
+}
+.footerAboutCaption {
+  color: #64748b;
+  font-family: "Light";
+  font-size: 1.7rem;
+}
+.footerAboutTitle,
+.footerFastTitle,
+.footerGoodTitle,
+.footerSocialTitle {
+  font-size: 2.4rem;
+  font-family: "Bold";
+  margin-bottom: 2rem;
+  color: var(--text-color);
+}
+.footerFastLink,
+.footerGoodLink,
+.footerSocialLink {
+  color: #64748b;
+  font-family: "Light";
+  font-size: 2rem;
+  text-decoration: none;
+  
+}
+.footerFastItem,
+.footerGoodItem,
+.footerSocialItem {
+  margin-bottom: 1rem;
+}
+.footerCopy{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.5rem;
+  color: var(--text-color);
+}
+a {
+  transition: 0.2s all ease-in-out;
+}
+footer a:hover {
+  color: #2ed573;
+}

@@ -124,6 +124,15 @@
   .midLogo > img {
     max-width: 6rem;
   }
+  .footerWrapper {
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+  }
+  .footerCopy {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 @media screen and (max-width: 402px) {
   .headerBtns {
@@ -152,4 +161,5 @@
     margin-bottom: 1rem;
     margin-right: 1.5rem;
   }
+  
 }
