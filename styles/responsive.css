@@ -109,7 +109,7 @@
   }
 }
 @media screen and (max-width: 576px) {
-  .mainSection{
+  .mainSection {
     flex-direction: column;
     justify-content: space-between;
     height: 15rem;
@@ -168,14 +168,14 @@
     width: 35rem;
   }
   .userNamePart,
-.mobilePart, 
-.emailPart, 
-.passwordPart {
-  width: 30rem;
-}
-.copyRightPart {
-  width: 30rem;
-}
+  .mobilePart,
+  .emailPart,
+  .passwordPart {
+    width: 30rem;
+  }
+  .copyRightPart {
+    width: 30rem;
+  }
 }
 @media (max-width: 270px) {
   html {
