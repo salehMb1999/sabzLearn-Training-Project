@@ -920,9 +920,8 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   align-items: flex-start;
-  gap:10rem;
+  gap: 10rem;
   border-bottom: 1px solid rgba(63, 63, 70, 0.1);
-
 }
 .footerAbout {
   width: 30rem;
@@ -954,14 +953,13 @@ body {
   font-family: "Light";
   font-size: 2rem;
   text-decoration: none;
-  
 }
 .footerFastItem,
 .footerGoodItem,
 .footerSocialItem {
   margin-bottom: 1rem;
 }
-.footerCopy{
+.footerCopy {
   display: flex;
   justify-content: space-between;
   padding-top: 1.5rem;
